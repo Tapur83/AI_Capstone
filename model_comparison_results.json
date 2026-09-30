@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "rmse": 55532.24,
+    "mae": 43445.43,
+    "r2": 0.53,
+    "mape": 25.94
+  },
+  "main_model": {
+    "rmse": 18232.42,
+    "mae": 12840.53,
+    "r2": 0.9493,
+    "mape": 6.91
+  },
+  "improvement": {
+    "rmse_pct": 67.17,
+    "mae_pct": 70.44,
+    "r2_improvement": 0.4193
+  }
+}

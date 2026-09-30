@@ -1,0 +1,85 @@
+{
+  "train_records": 815011,
+  "prod_records": 252359,
+  "train_date_range": [
+    "2017-11-28 00:00:00",
+    "2019-07-31 00:00:00"
+  ],
+  "prod_date_range": [
+    "2019-08-01 00:00:00",
+    "2019-12-06 00:00:00"
+  ],
+  "features": {
+    "price": {
+      "train_mean": 4.8,
+      "prod_mean": 4.15,
+      "mean_change_pct": 13.5,
+      "train_std": 135.06,
+      "prod_std": 75.2,
+      "std_change_pct": 44.32,
+      "drift_detected": true
+    },
+    "times_viewed": {
+      "train_mean": 5.23,
+      "prod_mean": 5.38,
+      "mean_change_pct": 2.82,
+      "train_std": 5.11,
+      "prod_std": 5.15,
+      "std_change_pct": 0.88,
+      "drift_detected": false
+    }
+  },
+  "drift_detected": true,
+  "country_distribution": {
+    "Portugal": {
+      "train_pct": 0.22,
+      "prod_pct": 0.32,
+      "change_pct": 0.1
+    },
+    "Channel Islands": {
+      "train_pct": 0.16,
+      "prod_pct": 0.15,
+      "change_pct": 0.01
+    },
+    "Japan": {
+      "train_pct": 0.06,
+      "prod_pct": 0.03,
+      "change_pct": 0.04
+    },
+    "Finland": {
+      "train_pct": 0.09,
+      "prod_pct": 0.12,
+      "change_pct": 0.03
+    },
+    "Poland": {
+      "train_pct": 0.05,
+      "prod_pct": 0.04,
+      "change_pct": 0.01
+    },
+    "Saudi Arabia": {
+      "train_pct": 0.0,
+      "prod_pct": 0.0,
+      "change_pct": 0.0
+    },
+    "Lithuania": {
+      "train_pct": 0.02,
+      "prod_pct": 0.0,
+      "change_pct": 0.02
+    },
+    "Thailand": {
+      "train_pct": 0.01,
+      "prod_pct": 0.0,
+      "change_pct": 0.01
+    },
+    "United Arab Emirates": {
+      "train_pct": 0.06,
+      "prod_pct": 0.02,
+      "change_pct": 0.04
+    },
+    "Singapore": {
+      "train_pct": 0.04,
+      "prod_pct": 0.01,
+      "change_pct": 0.02
+    }
+  }
+}

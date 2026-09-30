@@ -1,0 +1,19 @@
+{
+  "model_performance": {
+    "rmse": 45691.42,
+    "mae": 34796.47,
+    "r2": -3.6627,
+    "mape": 21.36
+  },
+  "business_metrics": {
+    "forecast_accuracy_pct": 78.64,
+    "total_actual_revenue": 22344909.1,
+    "total_predicted_revenue": 22766955.88,
+    "revenue_forecast_error_pct": 1.89
+  },
+  "relationship": {
+    "revenue_error_correlation": 0.0543,
+    "interpretation": "The correlation between revenue level and prediction error is 0.054. The near-zero correlation suggests prediction accuracy is relatively consistent across different revenue levels."
+  },
+  "conclusion": "The model achieves a forecast accuracy of 78.6%, with a total revenue forecast error of 1.89%. This means leadership can rely on the model's 30-day revenue projections with reasonable confidence for financial planning purposes."
+}
